@@ -1,0 +1,38 @@
+body{
+    background-color: #121212;
+}
+img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 4px, 4px, 4px;
+    transform-style: preserve-3d;
+    transition: 1s;
+    cursor: pointer;
+}
+.karten-container{
+    background-color: maroon;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    padding-left: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 350px;
+    display: grid;
+    box-shadow: 5px 1px 2px blueviolet;
+    grid-template-columns:  repeat(4,1fr);
+    gap: 5px;
+}
+
+h1{
+    background-color: #23028f;
+    color: darkred;
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
